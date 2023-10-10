@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dygnös</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+  <!--top header -->
+  <header class="">
+    <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+
+      <!--Navbar brand-->
+            <div class="navbar-brand">
+              <a class="navbar-item" href="/">
+                <img src="/images/Dygnös-logo-written.svg" width="80" height="40" alt="">
+              </a>          
+
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>  
+
+
+      <!--Navbar menu-->                    
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-end">
+                <button class="button is-small is-rounded is-dark">$ 3,071</button>
+                <a href="/" class="navbar-item">
+                  Home
+                </a>          
+                <a href="/about.html" class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item" href="/listing.html">
+                    Listings
+                  </a>
+                <a href="/pricing.html" class="navbar-item">
+                    Pricing
+                  </a>
+                  <div class="navbar-item">
+                    <div class="buttons">
+                      <a href="https://forms.gle/UtYxLyK8XQDzXDXr7" class="button is-info is-light">
+                        Join waitlist
+                      </a>
+                    </div>
+              </div>
+          
+              
+              </div>
+            </div>
+    </nav>
+  </header>
+
+
+
+
+
+    <main class="section " style="height: 100vh;">
+        <!-- <div class="tabs is-small is-right is-toggle is-toggle-rounded">
+            <ul>
+              <li class="is-active"><a href="">Lab</a></li>
+              <li><a href="/radiohome.html">Radiologist</a></li>
+            </ul>
+          </div> -->
+
+
+        <section class="columns hero-body is-centered">
+            <div class="column is-half has-text-centered ">
+                <div class="py-6 px-6 bordered-box has-background-white-bis">
+                  <h2 class="subtitle is-size-5">Upload or use existing image</h2>
+                    <a href="/lab-image-settings.html" class="button is-dark">List existing image</a>
+                    
+                    <a href="/radiohome.html" class="button ml-2 is-static">Upload</a>
+                    <br>
+                    <br>
+                    <!-- <p class="has-text-danger	">Upload is coming soon, use existing image for now</p> -->
+                </div>
+                <br>
+                <article class="message is-warning">
+                  <div class="message-body">
+                    Upload functionality is not available at present. Use <strong>Existing</strong> image instead.
+                  </div>
+                </article>                
+            </div>            
+        </section>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

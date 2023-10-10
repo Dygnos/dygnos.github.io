@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dygnös</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- <link rel="stylesheet" href="/css-files/lablisting.css"> -->
+</head>
+<body>
+  <header class="">
+    <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="/images/Dygnös-logo-written.svg" width="80" height="40" alt="">
+          </a>        
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>          
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <button class="button is-small is-rounded is-dark">$ 3,071</button>
+            <a href="/" class="navbar-item">
+              Home
+            </a>          
+            <a href="/about.html" class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item" href="/listing.html">
+                Listings
+              </a>
+            <a href="/pricing.html" class="navbar-item">
+                Pricing
+              </a>
+              
+          </div>
+      
+          <div class="">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-info is-light">
+                  Join waitlist
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+    <main class="section">
+        <div class="tabs is-small is-right is-toggle is-toggle-rounded">
+            <p class="is-size-6 has-text-info">Click on <strong class="has-text-info">"Get"</strong> to secure a listing</p>
+            <ul>
+              <li><a href="/listing.html">Lab</a></li>
+              <li class="is-active"><a>Radiologist</a></li>
+            </ul>
+          </div>
+          <!-- <p class="is-size-7 has-text-danger-dark">Note: You can only "Get" a listing as a Radiologist</p> -->
+        <div class="table-container">
+            <table class="table is-hoverable is-fullwidth">
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>Data ID</th>
+                  <th>Data Type</th>
+                  <th>Value</th>
+                  <th>Added</th>
+                  <th>List Type</th>
+                  <th>Time Left</th>
+                  <th>Deposit</th>
+                  <th>Interested</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>A1B2C3D4E5F</td>
+                  <td>Chest X-ray</td>
+                  <td>$175</td>
+                  <td>20:30</td>
+                  <td>Complete</td>
+                  <td>00:30:00</td>
+                  <td>80%</td>
+                  <td>56</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>G6H7I8J9K0L</td>
+                  <td>Brain PET</td>
+                  <td>$1657</td>
+                  <td>19:45</td>
+                  <td>Resell-Split</td>
+                  <td>05:15:00</td>
+                  <td>65%</td>
+                  <td>210</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>M1N2O3P4Q5R</td>
+                  <td>Abdominal MRI</td>
+                  <td>$1273</td>
+                  <td>19:15</td>
+                  <td>Complete</td>
+                  <td>04:45:00</td>
+                  <td>75%</td>
+                  <td>135</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>S6T7U8V9W0X</td>
+                  <td>Pelvic CT</td>
+                  <td>$458</td>
+                  <td>18:50</td>
+                  <td>Resell</td>
+                  <td>01:15:00</td>
+                  <td>90%</td>
+                  <td>42</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Y1Z2A3B4C5D</td>
+                  <td>Breast Mammogram</td>
+                  <td>$238</td>
+                  <td>18:25</td>
+                  <td>Split</td>
+                  <td>00:45:00</td>
+                  <td>50%</td>
+                  <td>76</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>E6F7G8H9I0J</td>
+                  <td>Spine X-ray</td>
+                  <td>$186</td>
+                  <td>18:05</td>
+                  <td>Complete</td>
+                  <td>00:30:00</td>
+                  <td>70%</td>
+                  <td>28</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>K1L2M3N4O5P</td>
+                  <td>Cardiac PET</td>
+                  <td>$1463</td>
+                  <td>17:30</td>
+                  <td>Resell</td>
+                  <td>04:30:00</td>
+                  <td>55%</td>
+                  <td>180</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Q6R7S8T9U0V</td>
+                  <td>Head MRI</td>
+                  <td>$1056</td>
+                  <td>17:00</td>
+                  <td>Resell-Split</td>
+                  <td>05:00:00</td>
+                  <td>85%</td>
+                  <td>96</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>W1X2Y3Z4A5B</td>
+                  <td>Chest CT</td>
+                  <td>$509</td>
+                  <td>16:15</td>
+                  <td>Complete</td>
+                  <td>02:45:00</td>
+                  <td>60%</td>
+                  <td>78</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>C6D7E8F9G0H</td>
+                  <td>Breast Mammogram</td>
+                  <td>$260</td>
+                  <td>15:45</td>
+                  <td>Split</td>
+                  <td>00:15:00</td>
+                  <td>75%</td>
+                  <td>32</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>I1J2K3L4M5N</td>
+                  <td>Abdominal X-ray</td>
+                  <td>$172</td>
+                  <td>15:10</td>
+                  <td>Complete</td>
+                  <td>00:30:00</td>
+                  <td>40%</td>
+                  <td>18</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>O6P7Q8R9S0T</td>
+                  <td>Brain PET</td>
+                  <td>$1855</td>
+                  <td>14:35</td>
+                  <td>Complete</td>
+                  <td>04:55:00</td>
+                  <td>90%</td>
+                  <td>220</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>U1V2W3X4Y5Z</td>
+                  <td>Pelvic MRI</td>
+                  <td>$1299</td>
+                  <td>13:55</td>
+                  <td>Split</td>
+                  <td>05:05:00</td>
+                  <td>50%</td>
+                  <td>63</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>A6B7C8D9E0F</td>
+                  <td>Head CT</td>
+                  <td>$562</td>
+                  <td>13:20</td>
+                  <td>Resell</td>
+                  <td>03:00:00</td>
+                  <td>70%</td>
+                  <td>95</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>G1H2I3J4K5L</td>
+                  <td>Chest X-ray</td>
+                  <td>$150</td>
+                  <td>12:45</td>
+                  <td>Resell-Split</td>
+                  <td>00:30:00</td>
+                  <td>80%</td>
+                  <td>27</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>M6N7O8P9Q0R</td>
+                  <td>Cardiac PET</td>
+                  <td>$1757</td>
+                  <td>12:10</td>
+                  <td>Complete</td>
+                  <td>03:20:00</td>
+                  <td>45%</td>
+                  <td>102</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>S1T2U3V4W5X</td>
+                  <td>Abdominal MRI</td>
+                  <td>$943</td>
+                  <td>11:35</td>
+                  <td>Complete</td>
+                  <td>03:25:00</td>
+                  <td>65%</td>
+                  <td>88</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Y6Z7A8B9C0D</td>
+                  <td>Spine X-ray</td>
+                  <td>$199</td>
+                  <td>11:00</td>
+                  <td>Resell</td>
+                  <td>00:30:00</td>
+                  <td>60%</td>
+                  <td>24</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>E1F2G3H4I5J</td>
+                  <td>Breast Mammogram</td>
+                  <td>$267</td>
+                  <td>10:25</td>
+                  <td>Resell</td>
+                  <td>00:15:00</td>
+                  <td>70%</td>
+                  <td>50</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>K6L7M8N9O0P</td>
+                  <td>Head MRI</td>
+                  <td>$1241</td>
+                  <td>09:50</td>
+                  <td>Complete</td>
+                  <td>05:10:00</td>
+                  <td>50%</td>
+                  <td>68</td>
+                  <td><a href="/deduction.html">Get</a></td>
+                </tr>
+              </tbody>
+            </table>
+                            
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p class="has-text-grey-light is-size-7">Copyright &copy; 2023 Dygnös</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

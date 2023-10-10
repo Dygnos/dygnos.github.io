@@ -1,0 +1,11 @@
+.bordered-box {
+    border-radius: 0.5rem;
+    border-style: dashed;
+    border-width: 0.1rem;
+}
+
+.about-image {
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 0.5rem;
+}

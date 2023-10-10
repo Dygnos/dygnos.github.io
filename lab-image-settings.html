@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dygnös</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css-files/image-settings.css">
+</head>
+<body>
+    <header class="">
+        <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="/">
+                <img src="/images/Dygnös-logo-written.svg" width="80" height="40" alt="">
+              </a>        
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-end">
+                <button class="button is-small is-rounded is-dark">$ 3,071</button>
+                <a href="/" class="navbar-item">
+                  Home
+                </a>          
+                <a href="/about.html" class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item" href="/listing.html">
+                    Listings
+                  </a>
+                <a href="/pricing.html" class="navbar-item">
+                    Pricing
+                  </a>
+                  
+              </div>
+          
+              <div class="">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-info is-light">
+                      Join waitlist
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="section">
+        <!-- <div class="tabs is-small is-right is-toggle is-toggle-rounded">
+            <ul>
+              <li class="is-active"><a href="">Lab</a></li>
+              <li><a href="/radiohome.html">Radiologist</a></li>
+            </ul>
+        </div> -->
+        <div class="columns">
+            <div class="column">
+                <img style="border-radius: 1rem;" src="/images/xray-dygnos.jpeg" alt="">
+            </div>
+            
+            <div class="column">
+                <table class="table is-fullwidth">
+                    <tr>
+                        <td class="has-text-weight-bold">Data ID</td>
+                        <td>A1B2C3D4E5F</td>
+                    </tr>
+                    <tr>
+                        <td class="has-text-weight-bold">Brief History</td>
+                        <td><textarea class="textarea is-primary" placeholder="Write a brief clinical history">56y man with 3 day history of breathlessness</textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="has-text-weight-bold">Time</td>
+                        <td><input class="input is-primary is-st" type="text" placeholder="01:30:00"></td>
+                    </tr>
+                    <tr>
+                        <td class="has-text-weight-bold">Price</td>
+                        <td><input class="input is-primary is-st" type="text" placeholder="$300"></td>
+                    </tr>
+                    <tr>
+                        <td class="has-text-weight-bold">Splits</td>
+                        <td>
+                          <div class="select is-primary">
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                          </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div>
+                              <br>
+                                <a href="/lab-listing.html" class="button is-success">List on exchange</a>
+                                <a href="" class="button is-static is-danger ml-2 is-light">Delete</a>
+                                <!-- <div class="is-size-7">
+                                    Click on list
+                                </div> -->
+                            </div>
+                            <br>
+                            <article class="message is-warning">
+                              <div class="message-body">
+                                Click "List on exchange" to listing it on the Dygnos exchange. 
+                                Splitting a list allows your data to be listed as multiple
+                                listings. This allows it to be reported by multiple radiologists.
+                              </div>
+                            </article>  
+                            
+                        </td>
+                    </tr>
+                </table>
+                                            
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
